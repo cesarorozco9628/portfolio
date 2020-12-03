@@ -7,7 +7,7 @@
 }
 /*  =========== General ========== */
 body {
-    background: cadetblue;
+    background: rgb(85, 87, 87);
 }
 
 .container {
@@ -25,12 +25,12 @@ h1 {
 }
 /* ========= Navigation ========== */
 .nav {
-    background-color: darkslategrey;
+    background-color: rgba(40, 43, 43, 0.692);
 }
 
 nav ul li{
     list-style: none;
-    border-bottom: solid 2px #ffffff38;
+    border-bottom: solid 2px #c9baba62;
 }
 
 .link-menu {
@@ -107,7 +107,7 @@ nav ul li{
      background-image: url("../img/img-profile.jpg");
      background-position: center;
      background-size: cover;
-     border: solid 5px grey;
+     border: solid 5px rgb(58, 55, 55);
      border-radius: 50%;
      width: 200px;
      height: 200px;
@@ -124,6 +124,10 @@ nav ul li{
  }
 
  /* ========= Skills ======= */
+ .stl-p {
+     font-size: 1.2rem;
+     color: rgba(52, 183, 223, 0.938);
+ }
  
 .line-flex {
     display: flex;
@@ -133,29 +137,36 @@ nav ul li{
 
  .line-white {
     border-bottom:solid 6px white;
-    width:100%;
+    width: 100%;
     height: 3px;
     position: relative;
     border-radius: 5px;
  }
 
  .line-bl-h {
-    border-bottom:solid 6px rgb(78, 78, 243);
+    border-bottom:solid 6px  rgba(52, 183, 223, 0.938);
     width: 30%;
-    height:6px;
+    height: 6px;
     position: absolute;
  }
 
  .line-bl-c {
-    border-bottom:solid 6px rgb(78, 78, 243);
+    border-bottom:solid 6px  rgba(52, 183, 223, 0.938);
     width: 50%;
-    height:6px;
+    height: 6px;
     position: absolute;
  }
 
  .line-bl-c-plus{
-    border-bottom:solid 6px rgb(78, 78, 243);
+    border-bottom:solid 6px  rgba(52, 183, 223, 0.938);
     width: 80%;
-    height:6px;
+    height:  6px;
+    position: absolute;
+ }
+
+ .line-bl-Python{
+    border-bottom:solid 6px  rgba(52, 183, 223, 0.938);
+    width: 40%;
+    height: 6px;
     position: absolute;
  }
