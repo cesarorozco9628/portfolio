@@ -91,6 +91,10 @@ nav ul li{
     border-radius: 20px;
     background: none;
   }
+  .stl-button:hover {
+      background: white;
+      color: cadetblue;
+  }
  /* ============ Main ============= */
  .dpl-img {
      display: flex;
