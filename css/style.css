@@ -47,7 +47,7 @@ nav ul li{
 }
 
 [class*="fa-"] {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: rgba(34, 135, 202, 0.781);
     padding: 10px;
 }
@@ -96,7 +96,7 @@ nav ul li{
   }
   .stl-button:hover {
       background: white;
-      color: cadetblue;
+      color: rgb(85, 87, 87);
   }
  /* ============ About Me ============= */
  .dpl-img {
@@ -125,6 +125,12 @@ nav ul li{
 
  .stl-lst {
      list-style: none;
+     margin-right: 10px;
+ }
+
+ .justify-center-btn {
+     justify-content: center;
+     align-items: center;
  }
 
  /* ========= Skills ======= */
@@ -194,14 +200,29 @@ nav ul li{
     height: 200px;
     background-image: url('https://images.pexels.com/photos/4616839/pexels-photo-4616839.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background-size: cover;
-    color: white;
  }
 
- .prt-card-{
+ .prt-card-vg{
      width: 100%;
      height: 200px;
-
+     background-image: url('https://images.pexels.com/photos/1293269/pexels-photo-1293269.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+     background-size: cover;
  }
+
+ .prt-card-pg {
+     width: 100%;
+     height: 200px;
+     background-image: url('https://images.pexels.com/photos/4709289/pexels-photo-4709289.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+     background-size: cover;
+ }
+
+ .prt-card-cd {
+     width: 100%;
+     height: 200px;
+     background-image: url('https://images.pexels.com/photos/3825581/pexels-photo-3825581.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+     background-size: cover;
+ }
+
  .bg-prt {
      background-color: white;
  }
