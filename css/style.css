@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-    width: 90%;
+    width: 95%;
     margin: auto;
 }
 
@@ -46,9 +46,10 @@ nav ul li{
     display: none; 
 }
 
-[class*="fa-"] {
+
+.btn-menu {
     font-size: 1.2rem;
-    color: rgba(34, 135, 202, 0.781);
+    color: rgba(26, 134, 228, 0.849);
     padding: 10px;
 }
 
@@ -233,3 +234,105 @@ nav ul li{
      font-weight: 500;
      padding: 20px 0;
  }
+
+ .mrg-top {
+     margin-top: 25px;
+ }
+
+ /* ======= footer ===== */
+
+ .bg-footer {
+     background-color: rgb(85, 87, 87);
+ }
+
+ footer h2.sub-titles {
+     font-size: 24px;
+     text-align: center;
+     margin-top: 50px;
+ }
+
+ footer span.sub-titles {
+     display: block;
+     text-align: center;
+     margin-bottom: 50px;
+ }
+
+ footer p.sub-titles {
+     margin-bottom: 50px;
+ }
+
+ .card {
+     background-color: white;
+     padding: 10px;
+     margin: 10px 0;
+     border-radius: 20px;
+ }
+
+ footer h2.stl-p {
+     margin: 10px 0;
+     font-weight: 300;
+ }
+
+ .btn-footer {
+     font-size: 20px;
+     color: rgba(33, 33, 216, 0.753);
+     margin: 0 5px;
+ }
+
+ /* ============ Contact =========== */
+
+ .text-contact {
+     display: block;
+     text-align: center;
+     font-weight: 500;
+ }
+
+ .form {
+     border: solid 2px grey;
+     border-radius: 20px;
+     width: 80%;
+     margin: auto;
+     padding: 15px;
+ }
+ 
+ .border-contact {
+    padding-bottom: 40px;
+ }
+
+ .link-form {
+     width: 100%;
+     height: 40px;
+ }
+ .link-message {
+     width: 100%;
+     height: 150px;
+}
+ .btn-form {
+     margin-top: 15px;
+     padding: 5px 10px;
+     background: rgb(58, 138, 230);
+     color: white;
+     border-radius: 20px;
+     font-size: 20px;
+     border: none;
+ }
+
+ .btn-center {
+     display: flex;
+     justify-content: center;
+ }
+
+ .icons-footer {
+     width: 100%;
+     height: 60px;
+     font-size: 20px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .icn-footer {
+    font-size: 20px;
+    color: rgb(249, 249, 252);
+    margin: 0 5px;
+}

@@ -2,18 +2,32 @@
     .row {
         display: flex;
         flex-wrap: wrap;
+        margin-bottom: 40px;
     }
+    .col-sml-3 {width: 25%;}
     .col-sml-4 {width: 33.33%;}
     .col-sml-6 {width: 50%;}
     .col-sml-8 {width: 66.66%;}
     [class*="col-"] {
         padding: 10px;
     }
+    .align-items-skills {
+        align-items: center;
+    }
 
 }
 
 @media (min-width: 768px) {
+    .col-md-6 {width: 50%;}
     .col-md-12 {width: 100%;}
+
+    footer p.sub-titles {
+        text-align: start;
+    }
+
+    .form {
+        width: 60%;
+    }
 
     [class*="prt-card-"] {
         height: 400px;
