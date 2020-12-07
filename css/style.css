@@ -15,13 +15,9 @@ body {
     margin: auto;
 }
 
-h1 {
-    color: white;
-    display: none;
-}
-
 .sub-titles {
     color: white;
+    font-size: 1.5rem;
 }
 
 .text-center {
@@ -29,7 +25,7 @@ h1 {
 }
 /* ========= Navigation ========== */
 .nav {
-    background-color: rgba(40, 43, 43, 0.692);
+    padding: 10px 0;
 }
 
 nav ul li{
@@ -48,11 +44,21 @@ nav ul li{
 
 
 .btn-menu {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     color: rgba(26, 134, 228, 0.849);
     padding: 10px;
 }
+h1.sub-titles {
+    font-size: 3rem;
+}
 
+div.dpl-img h2.sub-titles {
+    font-size: 2rem;
+}
+
+div.dpl-img p {
+    font-size: 19px;
+}
 /* ========= Header ============ */
  .bg-img {
      background-image: url("../img/bg-img.jpeg");
@@ -136,7 +142,7 @@ nav ul li{
 
  /* ========= Skills ======= */
  .stl-p {
-     font-size: 1.2rem;
+     font-size: 25px;
      color: rgba(52, 183, 223, 0.938);
  }
 
@@ -151,38 +157,32 @@ nav ul li{
 }
 
  .line-white {
-    border-bottom:solid 6px white;
+    border-bottom:solid 10px white;
     width: 100%;
-    height: 3px;
     position: relative;
-    border-radius: 5px;
  }
 
  .line-bl-h {
-    border-bottom:solid 6px  rgba(52, 183, 223, 0.938);
+    border-bottom:solid 10px  rgba(52, 183, 223, 0.938);
     width: 30%;
-    height: 6px;
     position: absolute;
  }
 
  .line-bl-c {
-    border-bottom:solid 6px  rgba(52, 183, 223, 0.938);
+    border-bottom:solid 10px  rgba(52, 183, 223, 0.938);
     width: 50%;
-    height: 6px;
     position: absolute;
  }
 
  .line-bl-c-plus{
-    border-bottom:solid 6px  rgba(52, 183, 223, 0.938);
+    border-bottom:solid 10px  rgba(52, 183, 223, 0.938);
     width: 80%;
-    height:  6px;
     position: absolute;
  }
 
  .line-bl-Python{
-    border-bottom:solid 6px  rgba(52, 183, 223, 0.938);
+    border-bottom:solid 10px  rgba(52, 183, 223, 0.938);
     width: 40%;
-    height: 6px;
     position: absolute;
  }
 
@@ -246,7 +246,7 @@ nav ul li{
  }
 
  footer h2.sub-titles {
-     font-size: 24px;
+     font-size: 3rem;
      text-align: center;
      margin-top: 50px;
  }
@@ -273,6 +273,10 @@ nav ul li{
      font-weight: 300;
  }
 
+ div.card p {
+     font-size: 19px;
+ }
+
  .btn-footer {
      font-size: 20px;
      color: rgba(33, 33, 216, 0.753);
@@ -285,8 +289,13 @@ nav ul li{
      display: block;
      text-align: center;
      font-weight: 500;
+     font-size: 1.5rem;
+     color: rgb(61, 136, 235);
  }
 
+ .border-contact h2.text-contact {
+     font-size: 2.2rem;
+ }
  .form {
      border: solid 2px grey;
      border-radius: 20px;
@@ -297,6 +306,7 @@ nav ul li{
  
  .border-contact {
     padding-bottom: 40px;
+    padding-top: 40px;
  }
 
  .link-form {

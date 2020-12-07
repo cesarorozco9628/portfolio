@@ -15,16 +15,19 @@
 </head>
 <body>
     <!-- Navigation -->
-    <header>
+    <header class="container">
         <nav class="nav">
-            <a href="#" onclick="showMenu()" title="menu"><i class="fas fa-bars btn-menu"></i></a>
-            <ul id="menu" class="list-menu">
-                <li><a href="" class="link-menu"><i class="fas fa-home btn-menu"></i>Home</a></li>
-                <li><a href="" class="link-menu"><i class="fas fa-user btn-menu"></i>About Me</a></li>
-                <li><a href="" class="link-menu"><i class="fas fa-briefcase btn-menu"></i>Portfolio</a></li>
-                <li><a href="" class="link-menu"><i class="fas fa-file-alt btn-menu"></i>Resume</a></li>
-                <li><a href="" class="link-menu"><i class="fas fa-mobile-alt btn-menu"></i>Contact Me</a></li>
-            </ul>
+            <div class="space-menu">
+                <a href="#"><div class="logo"></div></a>
+                <a href="#" onclick="showMenu()" title="menu"><i class="fas fa-bars btn-menu hidden"></i></a>
+                <ul id="menu" class="list-menu">
+                    <li><a href="" class="link-menu"><i class="fas fa-home btn-menu"></i>Home</a></li>
+                    <li><a href="" class="link-menu"><i class="fas fa-user btn-menu"></i>About Me</a></li>
+                    <li><a href="" class="link-menu"><i class="fas fa-briefcase btn-menu"></i>Portfolio</a></li>
+                    <li><a href="" class="link-menu"><i class="fas fa-file-alt btn-menu"></i>Resume</a></li>
+                    <li><a href="" class="link-menu"><i class="fas fa-mobile-alt btn-menu"></i>Contact Me</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
    <!-- Cover -->
@@ -32,7 +35,7 @@
         <div class="bg-img">
             <div class="overlay">
                <div class="col-reverse">
-                <h2 class="sub-titles">Cesar Orozco</h2>
+                <h1 class="sub-titles">Cesar Orozco</h1>
                 <h4 class="sub-titles">Soy programador.</h4>
                </div>
             </div>
@@ -48,7 +51,7 @@
                         <div class="img-profile"></div>
                     </div>    
                     <div class="col-sml-8 dpl-img">
-                        <h2>About Me</h2>
+                        <h2 class="sub-titles">About Me</h2>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum natus sapiente in doloremque earum quasi tenetur excepturi consectetur minima dolor quibusdam repellat odio similique, animi dolore veritatis. Fugiat, minus totam.</p>
                         <ul class="row justify-center-btn">
                             <li class="stl-lst"><button class="stl-button">View Resume</button></li>
@@ -229,8 +232,10 @@
         </div>
         <div class="bg-prt border-contact">
             <div class="container">
-                <h2 class="text-contact">Contact Me</h2>
-                <span class="text-contact">Say Hello!</span>
+                <div class="border-contact">
+                    <h2 class="text-contact">Contact Me</h2>
+                    <span class="text-contact">Say Hello!</span>
+                </div>
                 <div class="form">
                     <label for="name">Name:</label>
                     <input type="text" id="name" placeholder="Your Name" class="link-form">
@@ -251,7 +256,7 @@
             <i class="fas fa-phone-alt icn-footer"></i>
         </div>
         <div class="icons-footer">
-            <p>&copy; Todos los Derechos Reservados </p>
+            <p >&copy; Todos los Derechos Reservados </p>
         </div>
     </footer>
 </body>
