@@ -16,16 +16,15 @@
 <body>
     <!-- Navigation -->
     <header class="container">
-        <nav class="nav">
+        <nav class="nav" id="nav">
             <div class="space-menu">
-                <a href="#"><div class="logo"></div></a>
+                <div class="logo"></div>
                 <a href="#" onclick="showMenu()" title="menu"><i class="fas fa-bars btn-menu hidden"></i></a>
                 <ul id="menu" class="list-menu">
-                    <li><a href="" class="link-menu"><i class="fas fa-home btn-menu"></i>Home</a></li>
-                    <li><a href="" class="link-menu"><i class="fas fa-user btn-menu"></i>About Me</a></li>
-                    <li><a href="" class="link-menu"><i class="fas fa-briefcase btn-menu"></i>Portfolio</a></li>
-                    <li><a href="" class="link-menu"><i class="fas fa-file-alt btn-menu"></i>Resume</a></li>
-                    <li><a href="" class="link-menu"><i class="fas fa-mobile-alt btn-menu"></i>Contact Me</a></li>
+                    <li><a href="#about-me" class="link-menu"><i class="fas fa-user btn-menu"></i>About Me</a></li>
+                    <li><a href="#portfolio" class="link-menu"><i class="fas fa-briefcase btn-menu"></i>Portfolio</a></li>
+                    <li><a href="#resume" class="link-menu"><i class="fas fa-file-alt btn-menu"></i>Resume</a></li>
+                    <li><a href="#contact" class="link-menu"><i class="fas fa-mobile-alt btn-menu"></i>Contact Me</a></li>
                 </ul>
             </div>
         </nav>
@@ -34,8 +33,8 @@
       <header>
         <div class="bg-img">
             <div class="overlay">
-               <div class="col-reverse">
-                <h1 class="sub-titles">Cesar Orozco</h1>
+               <div class="colum-reverse">
+                <h1 class="sub-titles" id="home">Cesar Orozco</h1>
                 <h4 class="sub-titles">Soy programador.</h4>
                </div>
             </div>
@@ -44,7 +43,7 @@
    <!-- Main -->
    <div class="container">
        <main>
-           <section>
+           <section id="about-me">
                 <!-- About Me -->
                <div class="row">
                     <div class= "col-sml-4 dpl-img">
@@ -99,6 +98,9 @@
                             </div>  
                        </div> 
                     </div>
+                    <div class="btn-link-menu">
+                       <a href="#nav"><i class="fas fa-arrow-circle-up"></i></a>
+                    </div>
                    <div class="col-sml-6 d-column mrg-btn col-md-12">
                        <div class="row">
                         <div class="col-sml-6 mrg-top">
@@ -134,7 +136,7 @@
     <!-- Portfolio -->
     <div class="bg-prt">
        <div class="container">
-          <h2 class="text-center">Portfolio</h2>
+          <h2 class="text-center" id="portfolio">Portfolio</h2>
           <div class="row">
              <div class="col-sml-6 col-md-12">
                 <div class="prt-card-ocean"></div>
@@ -154,7 +156,7 @@
    <!-- footer -->
     <footer class="bg-footer">
         <div class="container">
-            <h2 class="sub-titles">MY RESUME</h2>
+            <h2 class="sub-titles" id="resume">MY RESUME</h2>
             <span class="sub-titles">Personal Statement</span>
             <h2 class="stl-p">Experince</h2>
             <p class="sub-titles">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit facere non, excepturi eius, distinctio sapiente amet.</p>
@@ -233,7 +235,7 @@
         <div class="bg-prt border-contact">
             <div class="container">
                 <div class="border-contact">
-                    <h2 class="text-contact">Contact Me</h2>
+                    <h2 class="text-contact" id="contact">Contact Me</h2>
                     <span class="text-contact">Say Hello!</span>
                 </div>
                 <div class="form">

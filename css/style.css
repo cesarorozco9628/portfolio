@@ -26,6 +26,12 @@ body {
 /* ========= Navigation ========== */
 .nav {
     padding: 10px 0;
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: rgb(85, 87, 87); */
 }
 
 nav ul li{
@@ -63,7 +69,7 @@ div.dpl-img p {
  .bg-img {
      background-image: url("../img/bg-img.jpeg");
      width: 100%;
-     height: 200px;
+     height: 400px;
      background-size: cover;
      background-position: center;
      position: relative;
@@ -78,7 +84,7 @@ div.dpl-img p {
      right: 0;
  }
 
- .col-reverse {
+ .colum-reverse {
      width: 100%;
      height: 100%;
      display: flex;
@@ -86,6 +92,7 @@ div.dpl-img p {
      justify-content: center;
      align-items: center;
      z-index: 65;
+     padding: 15px 0;
  }
 
  div.col-reverse h2.sub-titles {
@@ -345,4 +352,12 @@ div.dpl-img p {
     font-size: 20px;
     color: rgb(249, 249, 252);
     margin: 0 5px;
+}
+
+.btn-link-menu {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    font-size: 40px;
+    color: rgba(26, 134, 228, 0.849);
 }
